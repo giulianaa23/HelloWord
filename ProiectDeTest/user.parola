@@ -10,7 +10,8 @@ class Programn
     static void Main()
     {
 
-        while(true)
+
+
         {
             Console.Write("Introduceți utilizatorul: ");
             string imputUtilizator = Console.ReadLine();
