@@ -1,0 +1,28 @@
+﻿using System;
+
+class Programn
+{
+    //Definiți constanntele pentru utilizator și parolă 
+    const string UtilizatorCorect = "utilizator";
+    const string ParolaCorecta = "parola123";
+
+    
+    static void Main()
+    {
+
+
+
+        {
+            Console.Write("Introduceți utilizatorul: ");
+            string imputUtilizator = Console.ReadLine();
+
+            Console.Write("Introduceți parola: ")
+            string imputParola = Console.ReadLine();
+
+            if (AutentificareCorecta(imputUtilizator, imputParola))
+            {
+                Console.WriteLine($"Bine ai venit,{imputUtilizator}!")
+                break;
+
+            }
+            else 
